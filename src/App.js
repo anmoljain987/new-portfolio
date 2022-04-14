@@ -36,7 +36,7 @@ function App() {
           <Route path="/" exact component={Main} />
           <Route path="/blog" exact component={BlogPage} />
           <Route path="/projects" exact component={ProjectPage} />
-          <Route path="/#skills" exact component={Skills} />
+          <Route path="/skills" exact component={Skills} />
 
           <Redirect to="/" />
         </Switch>
