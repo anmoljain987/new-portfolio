@@ -291,7 +291,7 @@ function Contacts() {
             </div>
 
             <div className="socialmedia-icons">
-              {/* {socialsData.twitter && (
+              {socialsData.twitter && (
                 <a
                   href={socialsData.twitter}
                   target="_blank"
@@ -300,7 +300,7 @@ function Contacts() {
                 >
                   <FaTwitter aria-label="Twitter" />
                 </a>
-              )} */}
+              )}
               {socialsData.github && (
                 <a
                   href={socialsData.github}
