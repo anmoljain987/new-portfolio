@@ -18,7 +18,7 @@ export const projectsData = [
     projectName: "Adidas",
     projectDesc:
       "Its a non functional html css model of website Adidas, we have implemented css with great precision and the website fully responsive.",
-    tags: ["React", "Redux", "React-Bootstrap", "CSS", "HTML"],
+    tags: ["React", "Redux", "CSS", "Bootstrap"],
     code: "https://github.com/anmoljain987/addidas-clone",
     demo: "https://addidas-clone.vercel.app/",
     image: adidas_image,
