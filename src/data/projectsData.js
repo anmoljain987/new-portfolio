@@ -29,7 +29,7 @@ export const projectsData = [
       "Its a non functional html css model of website Adidas, we have implemented css with great precision and the website fully responsive.",
     tags: ["React", "Redux", "React-Bootstrap", "CSS", "HTML"],
     code: "https://github.com/anmoljain987/addidas-clone",
-    demo: "",
+    demo: "https://addidas-clone.vercel.app/",
     image: adidas_image,
   },
 ];

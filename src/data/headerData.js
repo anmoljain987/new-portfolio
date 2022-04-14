@@ -5,7 +5,7 @@ export const headerData = {
   name: "Anmol Jain",
   title: "Web Developer",
   desciption:
-    "Hello! Welcome, my name is Anmol Jain. I'm a full stack web developer based in India. I am highly-proficient in MERN stack and looking for opportunities to learn and build. So...let's connect! and start building!",
+    "I'm a full stack web developer based in India. I am highly-proficient in MERN stack and looking for opportunities to learn and build. So...let's connect! and start building!",
   image: "https://avatars.githubusercontent.com/u/96873348?v=4",
   resumePdf: resume,
 };
