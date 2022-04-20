@@ -1,5 +1,5 @@
 import beauty_image from "../assets/svg/projects/beauty.png";
-
+import guess_image from "../assets/svg/projects/win.png";
 import adidas_image from "../assets/svg/projects/adidas.png";
 
 export const projectsData = [
@@ -17,11 +17,21 @@ export const projectsData = [
     id: 2,
     projectName: "Adidas",
     projectDesc:
-      "Its a non functional html css model of website Adidas, we have implemented css with great precision and the website fully responsive.",
+      "It is a non functional html css model of website Adidas, we have implemented css with great precision and the website fully responsive.",
     tags: ["React", "Redux", "CSS", "Bootstrap"],
     code: "https://github.com/anmoljain987/addidas-clone",
     demo: "https://addidas-clone.vercel.app/",
     image: adidas_image,
+  },
+  {
+    id: 2,
+    projectName: "Guess-and-Bless",
+    projectDesc:
+      "It is functional game made using HTML , CSS , JavaScript. This is a simple yet addictive game made just for spending some time",
+    tags: ["HTML", "CSS", "JavaScript"],
+    code: "https://github.com/anmoljain987/guessIt",
+    demo: "https://guessandbless.netlify.app/",
+    image: guess_image,
   },
 ];
 
