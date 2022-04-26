@@ -283,16 +283,13 @@ function Contacts() {
               </div>
               <p style={{ color: theme.tertiary }}>{contactsData.phone}</p>
             </a>
-            <div className="personal-details">
-              <a
-                href={`${contactsData.location}`}
-                className="personal-details"
-              ></a>
+
+            <a href={`${contactsData.location}`} className="personal-details">
               <div className={classes.detailsIcon}>
                 <HiOutlineLocationMarker />
               </div>
               <p style={{ color: theme.tertiary }}>{contactsData.address}</p>
-            </div>
+            </a>
 
             <div className="socialmedia-icons">
               {socialsData.twitter && (
