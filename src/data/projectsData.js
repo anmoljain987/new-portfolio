@@ -25,16 +25,6 @@ export const projectsData = [
   },
   {
     id: 3,
-    projectName: "Guess-and-Bless",
-    projectDesc:
-      "It is functional game made using HTML , CSS , JavaScript. This is a simple yet addictive game made just for spending some time",
-    tags: ["HTML", "CSS", "JavaScript", "Responsive"],
-    code: "https://github.com/anmoljain987/guessIt",
-    demo: "https://guessandbless.netlify.app/",
-    image: guess_image,
-  },
-  {
-    id: 4,
     projectName: "BankMan",
     projectDesc:
       "It is fully functional banking application with login, logout, transfer, conversion.It is very beautifully designed with loaders animation and transitions",
@@ -42,6 +32,16 @@ export const projectsData = [
     code: "https://github.com/anmoljain987/BankMan",
     demo: "https://bankman.netlify.app/",
     image: bankman_image,
+  },
+  {
+    id: 4,
+    projectName: "Guess-and-Bless",
+    projectDesc:
+      "It is functional game made using HTML , CSS , JavaScript. This is a simple yet addictive game made just for spending some time",
+    tags: ["HTML", "CSS", "JavaScript", "Responsive"],
+    code: "https://github.com/anmoljain987/guessIt",
+    demo: "https://guessandbless.netlify.app/",
+    image: guess_image,
   },
 ];
 
