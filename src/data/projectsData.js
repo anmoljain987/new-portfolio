@@ -26,7 +26,7 @@ export const projectsData = [
   },
   {
     id: 3,
-    projectName: "Guess-and-Bless",
+    projectName: "BankMan-Bringing new life to Banking",
     projectDesc:
       "It is functional game made using HTML , CSS , JavaScript. This is a simple yet addictive game made just for spending some time",
     tags: ["HTML", "CSS", "JavaScript"],
