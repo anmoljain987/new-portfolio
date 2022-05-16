@@ -26,7 +26,7 @@ export const projectsData = [
   },
   {
     id: 3,
-    projectName: "BankMan-Bringing new life to Banking",
+    projectName: "BankMan",
     projectDesc:
       "It is functional game made using HTML , CSS , JavaScript. This is a simple yet addictive game made just for spending some time",
     tags: ["HTML", "CSS", "JavaScript"],
@@ -36,7 +36,7 @@ export const projectsData = [
   },
   {
     id: 4,
-    projectName: "BankMan",
+    projectName: "BankMan-Login",
     projectDesc:
       "Banking application landing page with login and create account options.It is very beautifully designed with Transitions, Animations , Sliders, Tabbed Components and Modal Window.",
     tags: ["HTML", "CSS", "JavaScript"],
