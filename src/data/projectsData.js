@@ -2,6 +2,7 @@ import beauty_image from "../assets/svg/projects/beauty.png";
 import guess_image from "../assets/svg/projects/win.png";
 import adidas_image from "../assets/svg/projects/adidas.png";
 import bankman_image from "../assets/svg/projects/Anmol.png";
+import bankmanLanding_image from "../assets/svg/projects/bankman.png";
 export const projectsData = [
   {
     id: 1,
@@ -25,16 +26,26 @@ export const projectsData = [
   },
   {
     id: 3,
+    projectName: "Guess-and-Bless",
+    projectDesc:
+      "It is functional game made using HTML , CSS , JavaScript. This is a simple yet addictive game made just for spending some time",
+    tags: ["HTML", "CSS", "JavaScript"],
+    code: "https://github.com/anmoljain987/BankMan-Landing",
+    demo: "https://bankman-landing.netlify.app/",
+    image: bankmanLanding_image,
+  },
+  {
+    id: 4,
     projectName: "BankMan",
     projectDesc:
-      "It is fully functional banking application with login, logout, transfer, conversion.It is very beautifully designed with loaders animation and transitions",
+      "Banking application landing page with login and create account options.It is very beautifully designed with Transitions, Animations , Sliders, Tabbed Components and Modal Window.",
     tags: ["HTML", "CSS", "JavaScript"],
     code: "https://github.com/anmoljain987/BankMan",
     demo: "https://bankman.netlify.app/",
     image: bankman_image,
   },
   {
-    id: 4,
+    id: 5,
     projectName: "Guess-and-Bless",
     projectDesc:
       "It is functional game made using HTML , CSS , JavaScript. This is a simple yet addictive game made just for spending some time",
