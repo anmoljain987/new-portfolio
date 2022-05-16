@@ -3,6 +3,7 @@ import guess_image from "../assets/svg/projects/win.png";
 import adidas_image from "../assets/svg/projects/adidas.png";
 import bankman_image from "../assets/svg/projects/Anmol.png";
 import bankmanLanding_image from "../assets/svg/projects/bankman.png";
+import expense_image from "../assets/svg/projects/Expense.png";
 export const projectsData = [
   {
     id: 1,
@@ -11,7 +12,7 @@ export const projectsData = [
       "This is a full-fledged clone of website Beauty Bebo, we have tried to implement every possible feature of the website and provided the full payment cycle with login and signup authoristaion",
     tags: ["JavaScript", "HTML", "CSS"],
     code: "https://github.com/nisKULDEEP/Beauty-Bebo",
-    demo: "https://harmonious-taiyaki-a9ee8e.netlify.app/",
+    demo: "https://beauty-bebo-clone.netlify.app/",
     image: beauty_image,
   },
   {
@@ -53,6 +54,16 @@ export const projectsData = [
     code: "https://github.com/anmoljain987/guessIt",
     demo: "https://guessandbless.netlify.app/",
     image: guess_image,
+  },
+  {
+    id: 6,
+    projectName: "Expense Tracker",
+    projectDesc:
+      "It is my First React Project. This is a simple but fun way to keep track of expenses with the help of Bar Graphs.",
+    tags: ["React.js", "React Hooks", "JavaScript"],
+    code: "https://github.com/anmoljain987/expense-tracker",
+    demo: "https://expense-trackerr.netlify.app/",
+    image: expense_image,
   },
 ];
 
