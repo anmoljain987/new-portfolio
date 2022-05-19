@@ -71,7 +71,7 @@ export const projectsData = [
   //   projectDesc:
   //     "",
   //   tags: ["React.js", "React Hooks", "JavaScript","Analytics"],
-  //   code: "https://github.com/anmoljain987/expense-tracker",
+  //   code: "https://github.com/anmoljain987/Note-Maker",
   //   demo: "https://note-maker-nu.vercel.app/",
   //   image: expense_image,
   // },
