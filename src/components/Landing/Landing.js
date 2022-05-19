@@ -144,18 +144,17 @@ function Landing() {
             <div className="lcr-buttonContainer">
               {headerData.resumePdf && (
                 <a
-                // href={headerData.resumePdf}
-                // download="Manasvi_Sharma_Resume"
-                // target="_blank"
-                // rel="noreferrer"
+                  href={headerData.resumePdf}
+                  download="Anmol_jain_resume"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   <Button
                     onClick={(e) => {
                       e.preventDefault();
 
                       window.open(
-                        "https://drive.google.com/file/d/1mT-lwYt03m4-QzAycB2tQqjsI20XBzA6/view",
-                        "_blank"
+                        "https://drive.google.com/file/d/1Hs-C1QryaMa2F9CB7ZvEDuFy6rayUPDa/view?usp=sharing"
                       );
                     }}
                     className={classes.resumeBtn}
