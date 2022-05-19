@@ -145,18 +145,18 @@ function Landing() {
               {headerData.resumePdf && (
                 <a
                   href={headerData.resumePdf}
-                  download="Anmol_jain_resume"
+                  download="Anmol_Jain_resume"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <Button
-                    // onClick={(e) => {
-                    //   e.preventDefault();
+                    onClick={(e) => {
+                      // e.preventDefault();
 
-                    //   window.open(
-                    //     "https://drive.google.com/file/d/1Hs-C1QryaMa2F9CB7ZvEDuFy6rayUPDa/view?usp=sharing"
-                    //   );
-                    // }}
+                      window.open(
+                        "https://drive.google.com/file/d/1Hs-C1QryaMa2F9CB7ZvEDuFy6rayUPDa/view?usp=sharing"
+                      );
+                    }}
                     className={classes.resumeBtn}
                   >
                     Download CV
