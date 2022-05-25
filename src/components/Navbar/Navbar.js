@@ -14,7 +14,7 @@ import CloseIcon from "@material-ui/icons/Close";
 import "./Navbar.css";
 import { headerData } from "../../data/headerData";
 import { ThemeContext } from "../../contexts/ThemeContext";
-
+import CustomisedSwitch from "./CustomisedSwitch";
 function Navbar() {
   const { theme, setHandleDrawer } = useContext(ThemeContext);
 
@@ -135,7 +135,9 @@ function Navbar() {
     <div className="navbar">
       <div className="navbar--container">
         <h1 style={{ color: theme.secondary }}>{shortname(headerData.name)}</h1>
-
+        <div className="switch-container">
+          <CustomisedSwitch />
+        </div>
         <IoMenuSharp
           className={classes.navMenu}
           onClick={handleDrawerOpen}
