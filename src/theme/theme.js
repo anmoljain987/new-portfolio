@@ -62,7 +62,7 @@ export const bwThemeLight = {
     secondary: '#EAEAEA',
     secondary70: '#EAEAEAb3',
     secondary50: '#EAEAEA80',
-    tertiary: '#212121',
+    tertiary: '#eaeaea',
     tertiary80: '#212121cc',
     tertiary70: '#212121b3',
     tertiary50: '#21212180',
