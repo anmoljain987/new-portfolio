@@ -15,8 +15,8 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
             width: 40,
             height: 40,
             borderRadius: 50,
-            border: `2px solid ${theme.tertiary}`,
-            color: theme.tertiary,
+            border: `2px solid ${theme.primary}`,
+            color: theme.primary,
             transition: 'all 0.2s',
             '&:hover': {
                 backgroundColor: theme.secondary,
@@ -44,7 +44,7 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
                 <div className='projectContent'>
                     <h2
                         id={name.replace(' ', '-').toLowerCase()}
-                        style={{ color: theme.tertiary }}
+                        style={{ color: theme.primary }}
                     >
                         {name}
                     </h2>
