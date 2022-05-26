@@ -44,7 +44,7 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
                 <div className='projectContent'>
                     <h2
                         id={name.replace(' ', '-').toLowerCase()}
-                        style={{ color: theme.secondary }}
+                        style={{ color: #eaeaea }}
                     >
                         {name}
                     </h2>
