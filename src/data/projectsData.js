@@ -4,6 +4,7 @@ import adidas_image from "../assets/svg/projects/adidas.png";
 import bankman_image from "../assets/svg/projects/Anmol.png";
 import bankmanLanding_image from "../assets/svg/projects/bankman.png";
 import expense_image from "../assets/svg/projects/Expense.png";
+import tic_image from "../assets/svg/projects/tic.png";
 export const projectsData = [
   {
     id: 1,
@@ -83,7 +84,7 @@ export const projectsData = [
     tags: ["HTML", "CSS3", "JavaScript", "Game"],
     code: "https://github.com/anmoljain987/Tic-Tac-Toe---Responsive",
     demo: "https://tit-for.tat.netlify.app/",
-    image: expense_image,
+    image: tic_image,
   },
 ];
 
