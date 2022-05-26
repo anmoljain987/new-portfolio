@@ -75,6 +75,16 @@ export const projectsData = [
   //   demo: "https://note-maker-nu.vercel.app/",
   //   image: expense_image,
   // },
+    {
+    id: 8,
+    projectName: "Tic-Tac-Toe",
+    projectDesc:
+      "A solo project to showcase my CSS skills. This is fully responsive and was completed in less then 3 hours",
+    tags: ["HTML", "CSS3", "JavaScript", "Game"],
+    code: "https://github.com/anmoljain987/Tic-Tac-Toe---Responsive",
+    demo: "https://tit-for.tat.netlify.app/",
+    image: expense_image,
+  },
 ];
 
 // Do not remove any fields.
