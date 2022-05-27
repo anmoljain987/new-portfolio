@@ -83,7 +83,7 @@ export const projectsData = [
       "A solo project to showcase my CSS skills. This is fully responsive and was completed in less then 3 hours",
     tags: ["HTML", "CSS3", "JavaScript", "Game"],
     code: "https://github.com/anmoljain987/Tic-Tac-Toe---Responsive",
-    demo: "https://tit-for.tat.netlify.app/",
+    demo: "https://tit-for-tat.netlify.app/",
     image: tic_image,
   },
 ];
